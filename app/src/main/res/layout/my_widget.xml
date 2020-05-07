@@ -1,0 +1,22 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#09C"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin">
+    <ImageView
+        android:id="@+id/brain"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/brain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/widget_image"
+        android:layout_width="match_parent"
+        android:src="@drawable/mainimage"
+        android:scaleType="fitXY"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
